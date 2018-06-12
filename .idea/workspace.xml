@@ -2,8 +2,12 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="46f12ec9-b87e-47d9-a9e4-33983dc15abf" name="Default" comment="">
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/java/com/ppdtbb/chapter2/helper/DatabaseHelper.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__commons_dbutils_commons_dbutils_1_6.xml" />
+      <change beforePath="$PROJECT_DIR$/.idea/artifacts/chapter2_war_exploded.xml" afterPath="$PROJECT_DIR$/.idea/artifacts/chapter2_war_exploded.xml" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change beforePath="$PROJECT_DIR$/chapter2.iml" afterPath="$PROJECT_DIR$/chapter2.iml" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" afterPath="$PROJECT_DIR$/pom.xml" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/ppdtbb/chapter2/helper/DatabaseHelper.java" afterPath="$PROJECT_DIR$/src/main/java/com/ppdtbb/chapter2/helper/DatabaseHelper.java" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/ppdtbb/chapter2/service/CustomerService.java" afterPath="$PROJECT_DIR$/src/main/java/com/ppdtbb/chapter2/service/CustomerService.java" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
@@ -20,11 +24,21 @@
       <file leaf-file-name="CustomerService.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/main/java/com/ppdtbb/chapter2/service/CustomerService.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="342">
-              <caret line="49" column="47" lean-forward="false" selection-start-line="49" selection-start-column="47" selection-end-line="49" selection-end-column="47" />
+            <state relative-caret-position="228">
+              <caret line="34" column="9" lean-forward="true" selection-start-line="34" selection-start-column="9" selection-end-line="34" selection-end-column="9" />
               <folding>
-                <marker date="1528772915330" expanded="true" signature="766:788" ph="select * fro... customer" />
+                <marker date="1528775127398" expanded="true" signature="697:719" ph="select * fro... customer" />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="pom.xml" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/pom.xml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="566">
+              <caret line="74" column="24" lean-forward="false" selection-start-line="74" selection-start-column="24" selection-end-line="74" selection-end-column="24" />
+              <folding />
             </state>
           </provider>
         </entry>
@@ -42,8 +56,8 @@
       <file leaf-file-name="DatabaseHelper.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/com/ppdtbb/chapter2/helper/DatabaseHelper.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="390">
-              <caret line="41" column="31" lean-forward="true" selection-start-line="41" selection-start-column="31" selection-end-line="41" selection-end-column="31" />
+            <state relative-caret-position="504">
+              <caret line="81" column="32" lean-forward="false" selection-start-line="81" selection-start-column="32" selection-end-line="81" selection-end-column="32" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -103,13 +117,13 @@
         <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/view/customer_edit.jsp" />
         <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/view/customer_show.jsp" />
         <option value="$PROJECT_DIR$/src/main/resources/log4j.properties" />
-        <option value="$PROJECT_DIR$/pom.xml" />
         <option value="$PROJECT_DIR$/src/main/java/com/ppdtbb/chapter2/util/PropsUtil.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/ppdtbb/chapter2/util/StringUtil.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/ppdtbb/chapter2/util/CastUtil.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/ppdtbb/chapter2/util/CollectionUtil.java" />
         <option value="$PROJECT_DIR$/src/test/java/com/ppdtbb/chapter2/test/CustomerServiceTest.java" />
         <option value="$PROJECT_DIR$/src/main/resources/config.properties" />
+        <option value="$PROJECT_DIR$/pom.xml" />
         <option value="$PROJECT_DIR$/src/main/java/com/ppdtbb/chapter2/helper/DatabaseHelper.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/ppdtbb/chapter2/service/CustomerService.java" />
       </list>
@@ -158,8 +172,8 @@
     </treeState>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="879" />
-    <option name="y" value="77" />
+    <option name="x" value="670" />
+    <option name="y" value="64" />
     <option name="width" value="1192" />
     <option name="height" value="865" />
   </component>
@@ -561,7 +575,7 @@
       <updated>1528681979882</updated>
       <workItem from="1528682001121" duration="10499000" />
       <workItem from="1528711008503" duration="1899000" />
-      <workItem from="1528766991863" duration="5479000" />
+      <workItem from="1528766991863" duration="6263000" />
     </task>
     <task id="LOCAL-00001" summary="1.连接数据库，编写单元测试类查询customer表&#10;2.问题：a.需要在CustomerService类中读取config.properties&#10;        b.执行一条select语句需要编写一大堆代码">
       <created>1528770009718</created>
@@ -597,7 +611,7 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="17877000" />
+    <option name="totallyTimeSpent" value="18661000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -609,7 +623,7 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="879" y="77" width="1192" height="865" extended-state="0" />
+    <frame x="670" y="64" width="1192" height="865" extended-state="0" />
     <layout>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32957748" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
@@ -625,7 +639,7 @@
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.25441697" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.25441697" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Web" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="5" side_tool="true" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
@@ -662,7 +676,7 @@
         <state relative-caret-position="1064">
           <caret line="56" column="60" lean-forward="false" selection-start-line="56" selection-start-column="60" selection-end-line="56" selection-end-column="60" />
           <folding>
-            <marker date="1528772915330" expanded="true" signature="766:788" ph="select * fro... customer" />
+            <marker date="1528775127398" expanded="true" signature="697:719" ph="select * fro... customer" />
           </folding>
         </state>
       </provider>
@@ -720,14 +734,14 @@
         <state relative-caret-position="665">
           <caret line="35" column="0" lean-forward="true" selection-start-line="35" selection-start-column="0" selection-end-line="35" selection-end-column="0" />
           <folding>
-            <element signature="e#207#208#0" expanded="true" />
-            <element signature="e#249#250#0" expanded="true" />
-            <element signature="e#1174#1175#0" expanded="true" />
-            <element signature="e#1213#1214#0" expanded="true" />
-            <element signature="e#1805#1806#0" expanded="true" />
-            <element signature="e#1843#1844#0" expanded="true" />
-            <element signature="e#2439#2440#0" expanded="true" />
-            <element signature="e#2485#2486#0" expanded="true" />
+            <element signature="e#207#208#0" expanded="false" />
+            <element signature="e#249#250#0" expanded="false" />
+            <element signature="e#1174#1175#0" expanded="false" />
+            <element signature="e#1213#1214#0" expanded="false" />
+            <element signature="e#1805#1806#0" expanded="false" />
+            <element signature="e#1843#1844#0" expanded="false" />
+            <element signature="e#2439#2440#0" expanded="false" />
+            <element signature="e#2485#2486#0" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -816,14 +830,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1254">
-          <caret line="66" column="19" lean-forward="false" selection-start-line="66" selection-start-column="19" selection-end-line="66" selection-end-column="19" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/ppdtbb/chapter2/util/PropsUtil.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="931">
@@ -837,14 +843,14 @@
         <state relative-caret-position="162">
           <caret line="86" column="23" lean-forward="true" selection-start-line="86" selection-start-column="23" selection-end-line="86" selection-end-column="23" />
           <folding>
-            <element signature="e#207#208#0" expanded="true" />
-            <element signature="e#249#250#0" expanded="true" />
-            <element signature="e#1174#1175#0" expanded="true" />
-            <element signature="e#1213#1214#0" expanded="true" />
-            <element signature="e#1805#1806#0" expanded="true" />
-            <element signature="e#1843#1844#0" expanded="true" />
-            <element signature="e#2439#2440#0" expanded="true" />
-            <element signature="e#2485#2486#0" expanded="true" />
+            <element signature="e#207#208#0" expanded="false" />
+            <element signature="e#249#250#0" expanded="false" />
+            <element signature="e#1174#1175#0" expanded="false" />
+            <element signature="e#1213#1214#0" expanded="false" />
+            <element signature="e#1805#1806#0" expanded="false" />
+            <element signature="e#1843#1844#0" expanded="false" />
+            <element signature="e#2439#2440#0" expanded="false" />
+            <element signature="e#2485#2486#0" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -854,7 +860,7 @@
         <state relative-caret-position="418">
           <caret line="22" column="50" lean-forward="true" selection-start-line="22" selection-start-column="50" selection-end-line="22" selection-end-column="50" />
           <folding>
-            <element signature="e#437#438#0" expanded="true" />
+            <element signature="e#437#438#0" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -864,15 +870,15 @@
         <state relative-caret-position="390">
           <caret line="27" column="0" lean-forward="true" selection-start-line="27" selection-start-column="0" selection-end-line="27" selection-end-column="0" />
           <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#364#365#0" expanded="true" />
-            <element signature="e#422#423#0" expanded="true" />
-            <element signature="e#521#522#0" expanded="true" />
-            <element signature="e#564#565#0" expanded="true" />
-            <element signature="e#649#650#0" expanded="true" />
-            <element signature="e#693#694#0" expanded="true" />
-            <element signature="e#781#782#0" expanded="true" />
-            <element signature="e#817#818#0" expanded="true" />
+            <element signature="imports" expanded="false" />
+            <element signature="e#364#365#0" expanded="false" />
+            <element signature="e#422#423#0" expanded="false" />
+            <element signature="e#521#522#0" expanded="false" />
+            <element signature="e#564#565#0" expanded="false" />
+            <element signature="e#649#650#0" expanded="false" />
+            <element signature="e#693#694#0" expanded="false" />
+            <element signature="e#781#782#0" expanded="false" />
+            <element signature="e#817#818#0" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -893,10 +899,18 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="566">
+          <caret line="74" column="24" lean-forward="false" selection-start-line="74" selection-start-column="24" selection-end-line="74" selection-end-column="24" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/ppdtbb/chapter2/helper/DatabaseHelper.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="390">
-          <caret line="41" column="31" lean-forward="true" selection-start-line="41" selection-start-column="31" selection-end-line="41" selection-end-column="31" />
+        <state relative-caret-position="504">
+          <caret line="81" column="32" lean-forward="false" selection-start-line="81" selection-start-column="32" selection-end-line="81" selection-end-column="32" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
@@ -905,10 +919,10 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/ppdtbb/chapter2/service/CustomerService.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="342">
-          <caret line="49" column="47" lean-forward="false" selection-start-line="49" selection-start-column="47" selection-end-line="49" selection-end-column="47" />
+        <state relative-caret-position="228">
+          <caret line="34" column="9" lean-forward="true" selection-start-line="34" selection-start-column="9" selection-end-line="34" selection-end-column="9" />
           <folding>
-            <marker date="1528772915330" expanded="true" signature="766:788" ph="select * fro... customer" />
+            <marker date="1528775127398" expanded="true" signature="697:719" ph="select * fro... customer" />
           </folding>
         </state>
       </provider>
