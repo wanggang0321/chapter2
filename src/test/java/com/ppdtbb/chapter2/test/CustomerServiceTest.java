@@ -1,11 +1,15 @@
 package com.ppdtbb.chapter2.test;
 
+import com.ppdtbb.chapter2.helper.DatabaseHelper;
 import com.ppdtbb.chapter2.model.Customer;
 import com.ppdtbb.chapter2.service.CustomerService;
 import org.junit.Assert;
 import org.junit.Before;
 import org.junit.Test;
 
+import java.io.BufferedReader;
+import java.io.InputStream;
+import java.io.InputStreamReader;
 import java.util.HashMap;
 import java.util.List;
 import java.util.Map;
@@ -22,8 +26,8 @@ public class CustomerServiceTest {
     }
 
     @Before
-    public void init() {
-        // TODO: 2018/6/11 初始化数据库
+    public void init() throws Exception {
+        DatabaseHelper.executeSqlFile("sql/customer_init.sql");
     }
 
     @Test
