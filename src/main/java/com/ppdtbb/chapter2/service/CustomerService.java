@@ -24,15 +24,8 @@ public class CustomerService {
      */
     public List<Customer> getCustomerList() {
 
-        Connection conn = null;
-
-        try {
-            conn = DatabaseHelper.getConnection();
-            String sql = "select * from customer";
-            return DatabaseHelper.queryEntityList(Customer.class, conn, sql, null);
-        } finally {
-            DatabaseHelper.closeConnection(conn);
-        }
+        String sql = "select * from customer";
+        return DatabaseHelper.queryEntityList(Customer.class, sql, null);
     }
 
     /**
@@ -46,7 +39,6 @@ public class CustomerService {
      * 获取客户
      */
     public Customer getCustomer(long id) {
-        // TODO: 2018/6/11
         return null;
     }
 
@@ -54,24 +46,21 @@ public class CustomerService {
      * 创建客户
      */
     public boolean createCustomer(Map<String, Object> fieldMap) {
-        // TODO: 2018/6/11
-        return false;
+        return DatabaseHelper.insertEntity(Customer.class, fieldMap);
     }
 
     /**
      * 更新客户
      */
     public boolean updateCustomer(long id, Map<String, Object> fieldMap) {
-        // TODO: 2018/6/11
-        return false;
+        return DatabaseHelper.updateEntity(Customer.class, id, fieldMap);
     }
 
     /**
      * 删除客户
      */
     public boolean deleteCustomer(long id) {
-        // TODO: 2018/6/11
-        return false;
+        return DatabaseHelper.deleteEntity(Customer.class, id);
     }
 
 }
